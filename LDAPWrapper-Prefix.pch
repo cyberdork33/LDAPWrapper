@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'LDAPWrapper' target in the 'LDAPWrapper' project
+//
+
+#ifdef __OBJC__
+#   import <Foundation/Foundation.h>
+#   ifndef TARGET_OS_IPHONE
+#       import <Cocoa/Cocoa.h>
+#   endif
+#endif
